@@ -1,0 +1,2 @@
+[console_scripts]
+pothole_node = pothole_detection.pothole_node:main

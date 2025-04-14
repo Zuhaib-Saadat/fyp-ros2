@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating azure_iot.egg-info
+writing azure_iot.egg-info/PKG-INFO
+writing dependency_links to azure_iot.egg-info/dependency_links.txt
+writing requirements to azure_iot.egg-info/requires.txt
+writing top-level names to azure_iot.egg-info/top_level.txt
+writing manifest file 'azure_iot.egg-info/SOURCES.txt'
+reading manifest file 'azure_iot.egg-info/SOURCES.txt'
+writing manifest file 'azure_iot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/zohaib/fyp_project_ws/install/azure_iot/lib/python3.12/site-packages/azure-iot.egg-link (link to .)
+
+Installed /home/zohaib/fyp_project_ws/build/azure_iot
+running symlink_data
+creating /home/zohaib/fyp_project_ws/install/azure_iot/share/ament_index
+creating /home/zohaib/fyp_project_ws/install/azure_iot/share/ament_index/resource_index
+creating /home/zohaib/fyp_project_ws/install/azure_iot/share/ament_index/resource_index/packages
+symbolically linking /home/zohaib/fyp_project_ws/build/azure_iot/resource/azure_iot -> /home/zohaib/fyp_project_ws/install/azure_iot/share/ament_index/resource_index/packages
+symbolically linking /home/zohaib/fyp_project_ws/build/azure_iot/package.xml -> /home/zohaib/fyp_project_ws/install/azure_iot/share/azure_iot

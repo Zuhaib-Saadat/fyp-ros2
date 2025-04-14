@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rtabmap_msgs/srv/LoadDatabase_Request",
+      "fields": [
+        {
+          "name": "database_path",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "clear",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rtabmap_msgs/srv/LoadDatabase_Request",
+      "hash_string": "RIHS01_5fc7fe8aff797c0737da22541d48d1641646cee5e79e9ae5fa5b27cdfb4c5e6b"
+    }
+  ]
+}

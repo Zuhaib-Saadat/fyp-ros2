@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating fyp_project.egg-info
+writing fyp_project.egg-info/PKG-INFO
+writing dependency_links to fyp_project.egg-info/dependency_links.txt
+writing requirements to fyp_project.egg-info/requires.txt
+writing top-level names to fyp_project.egg-info/top_level.txt
+writing manifest file 'fyp_project.egg-info/SOURCES.txt'
+reading manifest file 'fyp_project.egg-info/SOURCES.txt'
+writing manifest file 'fyp_project.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/zohaib/fyp_project_ws/install/fyp_project/lib/python3.12/site-packages/fyp-project.egg-link (link to .)
+
+Installed /home/zohaib/fyp_project_ws/build/fyp_project
+running symlink_data
+creating /home/zohaib/fyp_project_ws/install/fyp_project/share/ament_index
+creating /home/zohaib/fyp_project_ws/install/fyp_project/share/ament_index/resource_index
+creating /home/zohaib/fyp_project_ws/install/fyp_project/share/ament_index/resource_index/packages
+symbolically linking /home/zohaib/fyp_project_ws/build/fyp_project/resource/fyp_project -> /home/zohaib/fyp_project_ws/install/fyp_project/share/ament_index/resource_index/packages
+symbolically linking /home/zohaib/fyp_project_ws/build/fyp_project/package.xml -> /home/zohaib/fyp_project_ws/install/fyp_project/share/fyp_project

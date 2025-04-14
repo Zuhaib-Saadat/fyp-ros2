@@ -1,0 +1,22 @@
+[3.262s] Invoking command in '/home/zohaib/fyp_project_ws/build/fyp_project': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/fyp_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/fyp_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/fyp_project/build --no-deps symlink_data
+[3.961s] running develop
+[4.302s] running egg_info
+[4.302s] creating fyp_project.egg-info
+[4.347s] writing fyp_project.egg-info/PKG-INFO
+[4.352s] writing dependency_links to fyp_project.egg-info/dependency_links.txt
+[4.352s] writing requirements to fyp_project.egg-info/requires.txt
+[4.353s] writing top-level names to fyp_project.egg-info/top_level.txt
+[4.355s] writing manifest file 'fyp_project.egg-info/SOURCES.txt'
+[4.460s] reading manifest file 'fyp_project.egg-info/SOURCES.txt'
+[4.463s] writing manifest file 'fyp_project.egg-info/SOURCES.txt'
+[4.521s] running build_ext
+[4.521s] Creating /home/zohaib/fyp_project_ws/install/fyp_project/lib/python3.12/site-packages/fyp-project.egg-link (link to .)
+[4.522s] 
+[4.522s] Installed /home/zohaib/fyp_project_ws/build/fyp_project
+[4.523s] running symlink_data
+[4.528s] creating /home/zohaib/fyp_project_ws/install/fyp_project/share/ament_index
+[4.528s] creating /home/zohaib/fyp_project_ws/install/fyp_project/share/ament_index/resource_index
+[4.528s] creating /home/zohaib/fyp_project_ws/install/fyp_project/share/ament_index/resource_index/packages
+[4.529s] symbolically linking /home/zohaib/fyp_project_ws/build/fyp_project/resource/fyp_project -> /home/zohaib/fyp_project_ws/install/fyp_project/share/ament_index/resource_index/packages
+[4.529s] symbolically linking /home/zohaib/fyp_project_ws/build/fyp_project/package.xml -> /home/zohaib/fyp_project_ws/install/fyp_project/share/fyp_project
+[5.112s] Invoked command in '/home/zohaib/fyp_project_ws/build/fyp_project' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/fyp_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/fyp_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/fyp_project/build --no-deps symlink_data

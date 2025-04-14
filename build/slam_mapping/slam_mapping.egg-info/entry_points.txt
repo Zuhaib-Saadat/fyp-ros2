@@ -1,0 +1,2 @@
+[console_scripts]
+slam_node = slam_mapping.slam_node:main

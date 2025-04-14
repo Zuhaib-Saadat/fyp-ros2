@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/zohaib/fyp_project_ws/build/slam_mapping",
+        "/home/zohaib/fyp_project_ws/install/slam_mapping/lib/python3.12/site-packages",
+        "/home/zohaib/fyp_project_ws/build/pothole_detection",
+        "/home/zohaib/fyp_project_ws/install/pothole_detection/lib/python3.12/site-packages",
+        "/home/zohaib/fyp_project_ws/build/imu_interface",
+        "/home/zohaib/fyp_project_ws/install/imu_interface/lib/python3.12/site-packages",
+        "/home/zohaib/fyp_project_ws/build/fyp_project",
+        "/home/zohaib/fyp_project_ws/install/fyp_project/lib/python3.12/site-packages",
+        "/home/zohaib/fyp_project_ws/build/azure_iot",
+        "/home/zohaib/fyp_project_ws/install/azure_iot/lib/python3.12/site-packages",
+        "/home/zohaib/ros2_ws/install/camera_processor/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/zohaib/fyp_project_ws/build/slam_mapping",
+        "/home/zohaib/fyp_project_ws/install/slam_mapping/lib/python3.12/site-packages",
+        "/home/zohaib/fyp_project_ws/build/pothole_detection",
+        "/home/zohaib/fyp_project_ws/install/pothole_detection/lib/python3.12/site-packages",
+        "/home/zohaib/fyp_project_ws/build/imu_interface",
+        "/home/zohaib/fyp_project_ws/install/imu_interface/lib/python3.12/site-packages",
+        "/home/zohaib/fyp_project_ws/build/fyp_project",
+        "/home/zohaib/fyp_project_ws/install/fyp_project/lib/python3.12/site-packages",
+        "/home/zohaib/fyp_project_ws/build/azure_iot",
+        "/home/zohaib/fyp_project_ws/install/azure_iot/lib/python3.12/site-packages",
+        "/home/zohaib/ros2_ws/install/camera_processor/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

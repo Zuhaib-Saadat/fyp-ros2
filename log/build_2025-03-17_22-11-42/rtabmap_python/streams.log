@@ -1,0 +1,22 @@
+[2.897s] Invoking command in '/home/zohaib/fyp_project_ws/build/rtabmap_python': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/rtabmap_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/rtabmap_python/build --no-deps symlink_data
+[3.662s] running develop
+[4.091s] running egg_info
+[4.091s] creating rtabmap_python.egg-info
+[4.123s] writing rtabmap_python.egg-info/PKG-INFO
+[4.124s] writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+[4.125s] writing requirements to rtabmap_python.egg-info/requires.txt
+[4.125s] writing top-level names to rtabmap_python.egg-info/top_level.txt
+[4.126s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[4.197s] reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[4.199s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[4.269s] running build_ext
+[4.273s] Creating /home/zohaib/fyp_project_ws/install/rtabmap_python/lib/python3.12/site-packages/rtabmap-python.egg-link (link to .)
+[4.275s] 
+[4.276s] Installed /home/zohaib/fyp_project_ws/build/rtabmap_python
+[4.276s] running symlink_data
+[4.278s] creating /home/zohaib/fyp_project_ws/install/rtabmap_python/share/ament_index
+[4.279s] creating /home/zohaib/fyp_project_ws/install/rtabmap_python/share/ament_index/resource_index
+[4.279s] creating /home/zohaib/fyp_project_ws/install/rtabmap_python/share/ament_index/resource_index/packages
+[4.280s] symbolically linking /home/zohaib/fyp_project_ws/build/rtabmap_python/resource/rtabmap_python -> /home/zohaib/fyp_project_ws/install/rtabmap_python/share/ament_index/resource_index/packages
+[4.281s] symbolically linking /home/zohaib/fyp_project_ws/build/rtabmap_python/package.xml -> /home/zohaib/fyp_project_ws/install/rtabmap_python/share/rtabmap_python
+[5.028s] Invoked command in '/home/zohaib/fyp_project_ws/build/rtabmap_python' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/rtabmap_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/rtabmap_python/build --no-deps symlink_data

@@ -1,0 +1,17 @@
+[3.925s] Invoking command in '/home/zohaib/fyp_project_ws/build/fyp_project': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/fyp_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/fyp_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/fyp_project/build --no-deps symlink_data
+[4.799s] running develop
+[5.345s] running egg_info
+[5.408s] writing fyp_project.egg-info/PKG-INFO
+[5.408s] writing dependency_links to fyp_project.egg-info/dependency_links.txt
+[5.419s] writing entry points to fyp_project.egg-info/entry_points.txt
+[5.423s] writing requirements to fyp_project.egg-info/requires.txt
+[5.423s] writing top-level names to fyp_project.egg-info/top_level.txt
+[5.559s] reading manifest file 'fyp_project.egg-info/SOURCES.txt'
+[5.562s] writing manifest file 'fyp_project.egg-info/SOURCES.txt'
+[5.645s] running build_ext
+[5.645s] Creating /home/zohaib/fyp_project_ws/install/fyp_project/lib/python3.12/site-packages/fyp-project.egg-link (link to .)
+[5.647s] Installing main_node script to /home/zohaib/fyp_project_ws/install/fyp_project/lib/fyp_project
+[5.647s] 
+[5.647s] Installed /home/zohaib/fyp_project_ws/build/fyp_project
+[5.649s] running symlink_data
+[6.199s] Invoked command in '/home/zohaib/fyp_project_ws/build/fyp_project' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/fyp_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/fyp_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/fyp_project/build --no-deps symlink_data

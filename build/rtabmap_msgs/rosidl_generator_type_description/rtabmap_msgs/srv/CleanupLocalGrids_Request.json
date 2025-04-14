@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rtabmap_msgs/srv/CleanupLocalGrids_Request",
+      "fields": [
+        {
+          "name": "radius",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "filter_scans",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rtabmap_msgs/srv/CleanupLocalGrids_Request",
+      "hash_string": "RIHS01_e707303a2edfa9d6f12cf7bd4690a50b4c07aca19cd32bf8d79eb609c6333330"
+    }
+  ]
+}

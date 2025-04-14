@@ -1,0 +1,348 @@
+[0.155s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.155s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff82e2b3b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff82e2b170>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff82e2b170>>, mixin_verb=('build',))
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.212s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zohaib/fyp_project_ws'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/azure_iot) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/azure_iot) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/azure_iot) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/azure_iot) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/azure_iot) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/azure_iot) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/azure_iot) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/azure_iot) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/azure_iot) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/azure_iot' with type 'ros.ament_python' and name 'azure_iot'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/fyp_project) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/fyp_project) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/fyp_project) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/fyp_project) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/fyp_project) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/fyp_project) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/fyp_project) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/fyp_project) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/fyp_project) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fyp_project' with type 'ros.ament_python' and name 'fyp_project'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_interface) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_interface' with type 'ros.ament_python' and name 'imu_interface'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/pothole_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/pothole_detection) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/pothole_detection) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/pothole_detection) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/pothole_detection) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/pothole_detection) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/pothole_detection) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/pothole_detection) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/pothole_detection) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pothole_detection' with type 'ros.ament_python' and name 'pothole_detection'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_mapping) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_mapping) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_mapping) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_mapping) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_mapping) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_mapping) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_mapping) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_mapping) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_mapping' with type 'ros.ament_python' and name 'slam_mapping'
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.292s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/zohaib/fyp_project_ws/install
+[0.292s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/zohaib/ros2_ws/install
+[0.295s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 322 installed packages in /opt/ros/jazzy
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'azure_iot' build argument 'cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'azure_iot' build argument 'cmake_target' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'azure_iot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'azure_iot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'azure_iot' build argument 'cmake_clean_first' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'azure_iot' build argument 'cmake_force_configure' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'azure_iot' build argument 'ament_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'azure_iot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'azure_iot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.362s] DEBUG:colcon.colcon_core.verb:Building package 'azure_iot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zohaib/fyp_project_ws/build/azure_iot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zohaib/fyp_project_ws/install/azure_iot', 'merge_install': False, 'path': '/home/zohaib/fyp_project_ws/src/azure_iot', 'symlink_install': True, 'test_result_base': None}
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'fyp_project' build argument 'cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'fyp_project' build argument 'cmake_target' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'fyp_project' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'fyp_project' build argument 'cmake_clean_cache' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'fyp_project' build argument 'cmake_clean_first' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'fyp_project' build argument 'cmake_force_configure' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'fyp_project' build argument 'ament_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'fyp_project' build argument 'catkin_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'fyp_project' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.363s] DEBUG:colcon.colcon_core.verb:Building package 'fyp_project' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zohaib/fyp_project_ws/build/fyp_project', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zohaib/fyp_project_ws/install/fyp_project', 'merge_install': False, 'path': '/home/zohaib/fyp_project_ws/src/fyp_project', 'symlink_install': True, 'test_result_base': None}
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'imu_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'imu_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zohaib/fyp_project_ws/build/imu_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zohaib/fyp_project_ws/install/imu_interface', 'merge_install': False, 'path': '/home/zohaib/fyp_project_ws/src/imu_interface', 'symlink_install': True, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pothole_detection' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pothole_detection' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pothole_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pothole_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pothole_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pothole_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pothole_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pothole_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'pothole_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'pothole_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zohaib/fyp_project_ws/build/pothole_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zohaib/fyp_project_ws/install/pothole_detection', 'merge_install': False, 'path': '/home/zohaib/fyp_project_ws/src/pothole_detection', 'symlink_install': True, 'test_result_base': None}
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'slam_mapping' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'slam_mapping' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'slam_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'slam_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'slam_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'slam_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'slam_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'slam_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'slam_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'slam_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zohaib/fyp_project_ws/build/slam_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zohaib/fyp_project_ws/install/slam_mapping', 'merge_install': False, 'path': '/home/zohaib/fyp_project_ws/src/slam_mapping', 'symlink_install': True, 'test_result_base': None}
+[0.365s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.366s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.367s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zohaib/fyp_project_ws/src/azure_iot' with build type 'ament_python'
+[0.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('azure_iot', 'ament_prefix_path')
+[0.373s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/azure_iot/share/azure_iot/hook/ament_prefix_path.ps1'
+[0.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/install/azure_iot/share/azure_iot/hook/ament_prefix_path.dsv'
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/azure_iot/share/azure_iot/hook/ament_prefix_path.sh'
+[0.380s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.380s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.392s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zohaib/fyp_project_ws/src/fyp_project' with build type 'ament_python'
+[0.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('fyp_project', 'ament_prefix_path')
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/fyp_project/share/fyp_project/hook/ament_prefix_path.ps1'
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/install/fyp_project/share/fyp_project/hook/ament_prefix_path.dsv'
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/fyp_project/share/fyp_project/hook/ament_prefix_path.sh'
+[0.399s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.406s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zohaib/fyp_project_ws/src/imu_interface' with build type 'ament_python'
+[0.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'ament_prefix_path')
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/imu_interface/share/imu_interface/hook/ament_prefix_path.ps1'
+[0.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/install/imu_interface/share/imu_interface/hook/ament_prefix_path.dsv'
+[0.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/imu_interface/share/imu_interface/hook/ament_prefix_path.sh'
+[0.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.410s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.417s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zohaib/fyp_project_ws/src/pothole_detection' with build type 'ament_python'
+[0.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('pothole_detection', 'ament_prefix_path')
+[0.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/pothole_detection/share/pothole_detection/hook/ament_prefix_path.ps1'
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/install/pothole_detection/share/pothole_detection/hook/ament_prefix_path.dsv'
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/pothole_detection/share/pothole_detection/hook/ament_prefix_path.sh'
+[0.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.830s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zohaib/fyp_project_ws/src/azure_iot'
+[0.830s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.830s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.206s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zohaib/fyp_project_ws/src/fyp_project'
+[1.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.569s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zohaib/fyp_project_ws/src/imu_interface'
+[1.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.945s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zohaib/fyp_project_ws/src/pothole_detection'
+[1.945s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.945s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zohaib/fyp_project_ws/build/azure_iot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/azure_iot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/azure_iot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/azure_iot/build --no-deps symlink_data
+[3.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zohaib/fyp_project_ws/build/pothole_detection': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/pothole_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/pothole_detection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/pothole_detection/build --no-deps symlink_data
+[3.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zohaib/fyp_project_ws/build/fyp_project': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/fyp_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/fyp_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/fyp_project/build --no-deps symlink_data
+[3.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zohaib/fyp_project_ws/build/imu_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/imu_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/imu_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/imu_interface/build --no-deps symlink_data
+[4.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('pothole_detection', 'pythonpath_develop')
+[4.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/build/pothole_detection/share/pothole_detection/hook/pythonpath_develop.ps1'
+[4.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zohaib/fyp_project_ws/build/pothole_detection' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/pothole_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/pothole_detection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/pothole_detection/build --no-deps symlink_data
+[4.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/build/pothole_detection/share/pothole_detection/hook/pythonpath_develop.dsv'
+[4.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/build/pothole_detection/share/pothole_detection/hook/pythonpath_develop.sh'
+[4.822s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/pothole_detection' for CMake module files
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/pothole_detection' for CMake config files
+[4.824s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/pothole_detection/lib'
+[4.825s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/pothole_detection/bin'
+[4.825s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/pothole_detection/lib/pkgconfig/pothole_detection.pc'
+[4.825s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/pothole_detection/lib/python3.12/site-packages'
+[4.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('pothole_detection', 'pythonpath')
+[4.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/pothole_detection/share/pothole_detection/hook/pythonpath.ps1'
+[4.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/install/pothole_detection/share/pothole_detection/hook/pythonpath.dsv'
+[4.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/pothole_detection/share/pothole_detection/hook/pythonpath.sh'
+[4.833s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/pothole_detection/bin'
+[4.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pothole_detection)
+[4.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/pothole_detection/share/pothole_detection/package.ps1'
+[4.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zohaib/fyp_project_ws/install/pothole_detection/share/pothole_detection/package.dsv'
+[4.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/pothole_detection/share/pothole_detection/package.sh'
+[4.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/pothole_detection/share/pothole_detection/package.bash'
+[4.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/pothole_detection/share/pothole_detection/package.zsh'
+[4.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zohaib/fyp_project_ws/install/pothole_detection/share/colcon-core/packages/pothole_detection)
+[4.843s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zohaib/fyp_project_ws/src/slam_mapping' with build type 'ament_python'
+[4.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_mapping', 'ament_prefix_path')
+[4.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/slam_mapping/share/slam_mapping/hook/ament_prefix_path.ps1'
+[4.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/install/slam_mapping/share/slam_mapping/hook/ament_prefix_path.dsv'
+[4.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/slam_mapping/share/slam_mapping/hook/ament_prefix_path.sh'
+[4.859s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.860s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.377s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zohaib/fyp_project_ws/src/slam_mapping'
+[5.377s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('azure_iot', 'pythonpath_develop')
+[5.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/build/azure_iot/share/azure_iot/hook/pythonpath_develop.ps1'
+[5.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zohaib/fyp_project_ws/build/azure_iot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/azure_iot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/azure_iot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/azure_iot/build --no-deps symlink_data
+[5.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/build/azure_iot/share/azure_iot/hook/pythonpath_develop.dsv'
+[5.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/build/azure_iot/share/azure_iot/hook/pythonpath_develop.sh'
+[5.388s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/azure_iot' for CMake module files
+[5.388s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/azure_iot' for CMake config files
+[5.389s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/azure_iot/lib'
+[5.389s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/azure_iot/bin'
+[5.389s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/azure_iot/lib/pkgconfig/azure_iot.pc'
+[5.389s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/azure_iot/lib/python3.12/site-packages'
+[5.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('azure_iot', 'pythonpath')
+[5.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/azure_iot/share/azure_iot/hook/pythonpath.ps1'
+[5.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/install/azure_iot/share/azure_iot/hook/pythonpath.dsv'
+[5.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/azure_iot/share/azure_iot/hook/pythonpath.sh'
+[5.392s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/azure_iot/bin'
+[5.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(azure_iot)
+[5.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/azure_iot/share/azure_iot/package.ps1'
+[5.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zohaib/fyp_project_ws/install/azure_iot/share/azure_iot/package.dsv'
+[5.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/azure_iot/share/azure_iot/package.sh'
+[5.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/azure_iot/share/azure_iot/package.bash'
+[5.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/azure_iot/share/azure_iot/package.zsh'
+[5.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zohaib/fyp_project_ws/install/azure_iot/share/colcon-core/packages/azure_iot)
+[5.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('fyp_project', 'pythonpath_develop')
+[5.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/build/fyp_project/share/fyp_project/hook/pythonpath_develop.ps1'
+[5.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/build/fyp_project/share/fyp_project/hook/pythonpath_develop.dsv'
+[5.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zohaib/fyp_project_ws/build/fyp_project' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/fyp_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/fyp_project/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/fyp_project/build --no-deps symlink_data
+[5.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/build/fyp_project/share/fyp_project/hook/pythonpath_develop.sh'
+[5.403s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/fyp_project' for CMake module files
+[5.404s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/fyp_project' for CMake config files
+[5.405s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/fyp_project/lib'
+[5.406s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/fyp_project/bin'
+[5.406s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/fyp_project/lib/pkgconfig/fyp_project.pc'
+[5.406s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/fyp_project/lib/python3.12/site-packages'
+[5.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('fyp_project', 'pythonpath')
+[5.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/fyp_project/share/fyp_project/hook/pythonpath.ps1'
+[5.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/install/fyp_project/share/fyp_project/hook/pythonpath.dsv'
+[5.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/fyp_project/share/fyp_project/hook/pythonpath.sh'
+[5.409s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/fyp_project/bin'
+[5.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fyp_project)
+[5.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/fyp_project/share/fyp_project/package.ps1'
+[5.411s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zohaib/fyp_project_ws/install/fyp_project/share/fyp_project/package.dsv'
+[5.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/fyp_project/share/fyp_project/package.sh'
+[5.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/fyp_project/share/fyp_project/package.bash'
+[5.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/fyp_project/share/fyp_project/package.zsh'
+[5.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zohaib/fyp_project_ws/install/fyp_project/share/colcon-core/packages/fyp_project)
+[5.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'pythonpath_develop')
+[5.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/build/imu_interface/share/imu_interface/hook/pythonpath_develop.ps1'
+[5.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/build/imu_interface/share/imu_interface/hook/pythonpath_develop.dsv'
+[5.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/build/imu_interface/share/imu_interface/hook/pythonpath_develop.sh'
+[5.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zohaib/fyp_project_ws/build/imu_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/imu_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/imu_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/imu_interface/build --no-deps symlink_data
+[5.423s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/imu_interface' for CMake module files
+[5.424s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/imu_interface' for CMake config files
+[5.428s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/imu_interface/lib'
+[5.429s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/imu_interface/bin'
+[5.429s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/imu_interface/lib/pkgconfig/imu_interface.pc'
+[5.430s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/imu_interface/lib/python3.12/site-packages'
+[5.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_interface', 'pythonpath')
+[5.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/imu_interface/share/imu_interface/hook/pythonpath.ps1'
+[5.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/install/imu_interface/share/imu_interface/hook/pythonpath.dsv'
+[5.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/imu_interface/share/imu_interface/hook/pythonpath.sh'
+[5.436s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/imu_interface/bin'
+[5.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_interface)
+[5.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/imu_interface/share/imu_interface/package.ps1'
+[5.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zohaib/fyp_project_ws/install/imu_interface/share/imu_interface/package.dsv'
+[5.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/imu_interface/share/imu_interface/package.sh'
+[5.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/imu_interface/share/imu_interface/package.bash'
+[5.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/imu_interface/share/imu_interface/package.zsh'
+[5.449s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zohaib/fyp_project_ws/install/imu_interface/share/colcon-core/packages/imu_interface)
+[6.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zohaib/fyp_project_ws/build/slam_mapping': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/slam_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/slam_mapping/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/slam_mapping/build --no-deps symlink_data
+[7.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_mapping', 'pythonpath_develop')
+[7.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/build/slam_mapping/share/slam_mapping/hook/pythonpath_develop.ps1'
+[7.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zohaib/fyp_project_ws/build/slam_mapping' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/slam_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/slam_mapping/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/slam_mapping/build --no-deps symlink_data
+[7.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/build/slam_mapping/share/slam_mapping/hook/pythonpath_develop.dsv'
+[7.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/build/slam_mapping/share/slam_mapping/hook/pythonpath_develop.sh'
+[7.610s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/slam_mapping' for CMake module files
+[7.610s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/slam_mapping' for CMake config files
+[7.611s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/slam_mapping/lib'
+[7.612s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/slam_mapping/bin'
+[7.612s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/slam_mapping/lib/pkgconfig/slam_mapping.pc'
+[7.612s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/slam_mapping/lib/python3.12/site-packages'
+[7.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_mapping', 'pythonpath')
+[7.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/slam_mapping/share/slam_mapping/hook/pythonpath.ps1'
+[7.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zohaib/fyp_project_ws/install/slam_mapping/share/slam_mapping/hook/pythonpath.dsv'
+[7.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zohaib/fyp_project_ws/install/slam_mapping/share/slam_mapping/hook/pythonpath.sh'
+[7.616s] Level 1:colcon.colcon_core.environment:checking '/home/zohaib/fyp_project_ws/install/slam_mapping/bin'
+[7.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_mapping)
+[7.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/slam_mapping/share/slam_mapping/package.ps1'
+[7.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zohaib/fyp_project_ws/install/slam_mapping/share/slam_mapping/package.dsv'
+[7.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/slam_mapping/share/slam_mapping/package.sh'
+[7.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/slam_mapping/share/slam_mapping/package.bash'
+[7.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/zohaib/fyp_project_ws/install/slam_mapping/share/slam_mapping/package.zsh'
+[7.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zohaib/fyp_project_ws/install/slam_mapping/share/colcon-core/packages/slam_mapping)
+[7.621s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.622s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.622s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.623s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.638s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.640s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.640s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.694s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.695s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zohaib/fyp_project_ws/install/local_setup.ps1'
+[7.696s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zohaib/fyp_project_ws/install/_local_setup_util_ps1.py'
+[7.699s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zohaib/fyp_project_ws/install/setup.ps1'
+[7.701s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zohaib/fyp_project_ws/install/local_setup.sh'
+[7.702s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zohaib/fyp_project_ws/install/_local_setup_util_sh.py'
+[7.703s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zohaib/fyp_project_ws/install/setup.sh'
+[7.705s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zohaib/fyp_project_ws/install/local_setup.bash'
+[7.706s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zohaib/fyp_project_ws/install/setup.bash'
+[7.708s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zohaib/fyp_project_ws/install/local_setup.zsh'
+[7.708s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zohaib/fyp_project_ws/install/setup.zsh'

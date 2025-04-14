@@ -1,0 +1,2 @@
+[console_scripts]
+azure_node = azure_iot.azure_node:main

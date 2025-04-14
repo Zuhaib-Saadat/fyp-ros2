@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zohaib/fyp_project_ws/build/rtabmap_msgs/rosidl_generator_py/rtabmap_msgs/rtabmap_msgs_s__rosidl_typesupport_c.so" "TARGETS" "rtabmap_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/rtabmap_msgs")

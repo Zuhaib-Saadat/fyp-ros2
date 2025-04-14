@@ -1,0 +1,15 @@
+[3.995s] Invoking command in '/home/zohaib/fyp_project_ws/build/imu_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/imu_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/imu_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/imu_interface/build --no-deps symlink_data
+[5.067s] running develop
+[5.859s] running egg_info
+[5.914s] writing imu_interface.egg-info/PKG-INFO
+[5.915s] writing dependency_links to imu_interface.egg-info/dependency_links.txt
+[5.924s] writing requirements to imu_interface.egg-info/requires.txt
+[5.924s] writing top-level names to imu_interface.egg-info/top_level.txt
+[6.057s] reading manifest file 'imu_interface.egg-info/SOURCES.txt'
+[6.057s] writing manifest file 'imu_interface.egg-info/SOURCES.txt'
+[6.130s] running build_ext
+[6.131s] Creating /home/zohaib/fyp_project_ws/install/imu_interface/lib/python3.12/site-packages/imu-interface.egg-link (link to .)
+[6.131s] 
+[6.131s] Installed /home/zohaib/fyp_project_ws/build/imu_interface
+[6.131s] running symlink_data
+[6.585s] Invoked command in '/home/zohaib/fyp_project_ws/build/imu_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/imu_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/imu_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/imu_interface/build --no-deps symlink_data

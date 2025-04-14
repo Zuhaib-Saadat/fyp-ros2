@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+azure_iot/__init__.py
+azure_iot/azure_node.py
+azure_iot.egg-info/PKG-INFO
+azure_iot.egg-info/SOURCES.txt
+azure_iot.egg-info/dependency_links.txt
+azure_iot.egg-info/entry_points.txt
+azure_iot.egg-info/requires.txt
+azure_iot.egg-info/top_level.txt
+azure_iot.egg-info/zip-safe
+resource/azure_iot

@@ -1,0 +1,2 @@
+[console_scripts]
+main_node = fyp_project.main_node:main
