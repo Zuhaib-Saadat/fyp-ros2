@@ -20,18 +20,18 @@ def generate_launch_description():
             name='rtabmap',
             output='screen',
             parameters=[{
-		'frame_id': 'base_link',
-		'subscribe_scan': True,
-		'subscribe_odom': True,
-    	    	'subscribe_imu': True,  # Enable IMU integration
-    	    	'approx_sync': True,
-	    }],
-	    remappings=[
-    	    	('scan', '/scan'),
-    	    	('odom', '/odom'),
-    	    	('rgb/image', '/image_raw'),  # Use /image_raw for camera
-    	    	('imu', '/imu_data'),  # Use /imu_data for IMU
-	    ],
+                'frame_id': 'base_link',
+                'subscribe_scan': True,
+                'subscribe_odom': True,
+                'subscribe_imu': True,
+                'approx_sync': True,
+            }],
+            remappings=[
+                ('scan', '/scan'),
+                ('odom', '/odom'),
+                ('rgb/image', '/image_raw'),
+                ('imu', '/imu_data'),
+            ],
         ),
         Node(
             package='rviz2',
@@ -47,6 +47,12 @@ def generate_launch_description():
         Node(
             package='imu_interface',
             executable='imu_node',
+            output='screen'
+        ),
+        Node(
+            package='gps_interface',
+            executable='gps_node',
+            name='gps_node',
             output='screen'
         ),
         Node(

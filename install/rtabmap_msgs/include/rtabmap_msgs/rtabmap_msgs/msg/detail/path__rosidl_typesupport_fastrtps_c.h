@@ -1,1 +1,0 @@
-/home/zohaib/fyp_project_ws/build/rtabmap_msgs/rosidl_typesupport_fastrtps_c/rtabmap_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h

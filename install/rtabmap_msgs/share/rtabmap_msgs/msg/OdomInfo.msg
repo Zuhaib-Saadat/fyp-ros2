@@ -1,1 +1,0 @@
-/home/zohaib/fyp_project_ws/src/rtabmap_ros/rtabmap_msgs/msg/OdomInfo.msg

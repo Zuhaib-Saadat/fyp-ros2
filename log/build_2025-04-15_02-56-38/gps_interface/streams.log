@@ -1,0 +1,24 @@
+[3.121s] Invoking command in '/home/zohaib/fyp_project_ws/build/gps_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/gps_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/gps_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/gps_interface/build --no-deps symlink_data
+[3.749s] running develop
+[4.087s] running egg_info
+[4.087s] creating gps_interface.egg-info
+[4.156s] writing gps_interface.egg-info/PKG-INFO
+[4.156s] writing dependency_links to gps_interface.egg-info/dependency_links.txt
+[4.249s] writing entry points to gps_interface.egg-info/entry_points.txt
+[4.249s] writing requirements to gps_interface.egg-info/requires.txt
+[4.249s] writing top-level names to gps_interface.egg-info/top_level.txt
+[4.249s] writing manifest file 'gps_interface.egg-info/SOURCES.txt'
+[4.391s] reading manifest file 'gps_interface.egg-info/SOURCES.txt'
+[4.393s] writing manifest file 'gps_interface.egg-info/SOURCES.txt'
+[4.455s] running build_ext
+[4.455s] Creating /home/zohaib/fyp_project_ws/install/gps_interface/lib/python3.12/site-packages/gps-interface.egg-link (link to .)
+[4.456s] Installing gps_node script to /home/zohaib/fyp_project_ws/install/gps_interface/lib/gps_interface
+[4.457s] 
+[4.457s] Installed /home/zohaib/fyp_project_ws/build/gps_interface
+[4.457s] running symlink_data
+[4.457s] creating /home/zohaib/fyp_project_ws/install/gps_interface/share/ament_index
+[4.457s] creating /home/zohaib/fyp_project_ws/install/gps_interface/share/ament_index/resource_index
+[4.458s] creating /home/zohaib/fyp_project_ws/install/gps_interface/share/ament_index/resource_index/packages
+[4.458s] symbolically linking /home/zohaib/fyp_project_ws/build/gps_interface/resource/gps_interface -> /home/zohaib/fyp_project_ws/install/gps_interface/share/ament_index/resource_index/packages
+[4.458s] symbolically linking /home/zohaib/fyp_project_ws/build/gps_interface/package.xml -> /home/zohaib/fyp_project_ws/install/gps_interface/share/gps_interface
+[4.832s] Invoked command in '/home/zohaib/fyp_project_ws/build/gps_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zohaib/fyp_project_ws/build/gps_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zohaib/fyp_project_ws/install/gps_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zohaib/fyp_project_ws/build/gps_interface/build --no-deps symlink_data
